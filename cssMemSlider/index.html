@@ -10,20 +10,8 @@
   <body>
     <section>
       <div class="slider_wrapper">
-        <div class="slider__images">
-          <img class="images__image first hidden" src="./assets/agile.jpeg" />
-          <img class="images__image second" src="./assets/front-end.jpeg" />
-          <img
-            class="images__image third hidden"
-            src="./assets/pro-reklamu.png"
-          />
-          <img class="images__image fourth hidden" src="./assets/salary.jpeg" />
-        </div>
+        <div class="slider__images"></div>
         <div class="slider__text-and-control">
-          <div class="slider__text">
-            <div>Agile is fun</div>
-            <div>Front-end: the best of the best</div>
-          </div>
           <div class="slider__control">
             <div class="control__button-wrapper">
               <input
@@ -36,12 +24,14 @@
                 <div class="control__button"></div>
               </label>
               <img class="images__image first" src="./assets/agile.jpeg" />
+              <div class="text">Agile is fun</div>
               <!-- ///// -->
               <input type="radio" id="custom_checkbox2" name="control" />
               <label for="custom_checkbox2">
                 <div class="control__button"></div>
               </label>
               <img class="images__image second" src="./assets/front-end.jpeg" />
+              <div class="text">Front-end: the best of the best</div>
               <!-- //// -->
               <input type="radio" id="custom_checkbox3" name="control" />
               <label for="custom_checkbox3">
@@ -51,6 +41,7 @@
                 class="images__image third hidden"
                 src="./assets/pro-reklamu.png"
               />
+              <div class="text">Ads make me crazy</div>
               <input type="radio" id="custom_checkbox4" name="control" />
               <label for="custom_checkbox4">
                 <div class="control__button"></div>
@@ -59,6 +50,7 @@
                 class="images__image fourth hidden"
                 src="./assets/salary.jpeg"
               />
+              <div class="text">Job of your dream</div>
             </div>
           </div>
         </div>
